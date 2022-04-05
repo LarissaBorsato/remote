@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+* {
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    position: sticky;
+    width: 1280px;
+    height: 720px;
+    background: #121214;
+    border-radius: 12px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flix{
+    position: absolute;
+    width: 229px;
+    height: 68px;
+    left: 517px;
+    top: 42px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    position: absolute;
+    width: 334px;
+    height: 42px;
+    left: 464px;
+    top: 183px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 718px;
+    height: 194px;
+    left: 272px;
+    top: 286px;
+}
+.users{
+    border-radius: 8px;
+}
+.users:hover{
+    border: #FFFFFF 2px solid;
+}
+.primeiroUsuario{
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 21px;
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+}
+.segundoUsuario{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 21px;
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+}
+.terceiroUsuario{
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 21px;
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+}
+
+.novoUsuario{
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 21px;
+    width: 160px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+}
+#users {
+    margin-top: 15px;
+}
+a{
+    left: 27.5%;
+    right: 27.5%;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #9C9C9C;
+}
+#line{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 60px;
+}
+#pdr{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 55px;
+}
+#juh{
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 60px;
+}
+#perf{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 29px;
+}
+#branco {
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+  
+#branco:hover {
+    opacity: 1.0;
+}
+
+.btn{
+    position: absolute;
+    width: 206px;
+    height: 50px;
+    left: 528px;
+    top: 582px;
+    background-color: #121214;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #121214;
+}
